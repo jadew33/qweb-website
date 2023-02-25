@@ -16,7 +16,7 @@ export default function Home() {
         <title>Queen's Web Development</title>
         <meta
           name="description"
-          content="Web Development Club at Queen's run by students for students! We offer web development services as well as tutorials on full stack development."
+          content="Web Development Club at Queen's run by students for students! We offer free web development services as well as tutorials on full stack development."
         />
         <meta
           name="viewport"
