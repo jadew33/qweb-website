@@ -147,6 +147,10 @@
     }
   }
   @media (max-width: $screen-xs) {
+    .text,
+    form {
+      margin-left: 20px;
+    }
     img {
       bottom: -20px;
       width: 70px;

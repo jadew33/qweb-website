@@ -67,34 +67,31 @@
     h1 {
       font-size: 62px;
     }
-    height: 100vh;
   }
   @media (max-width: $screen-xs) {
     background-image: url("../../public/brand/qweb-background-mobile.png");
-    height: calc(100vh - $nav-height-mobile);
+    min-height: calc(100vh - $nav-height-mobile);
     margin-top: $nav-height-mobile;
     .text-box {
-      padding: 40px 30px 0;
+      padding: 30px 0 0 60px;
       h1 {
-        font-size: 46px;
+        font-size: 42px;
       }
       button {
-        padding: 5px 20px;
-        margin-top: 20px;
-        margin-left: 30px;
+        padding: 3px 20px;
+        margin-top: 10px;
+        font-size: 24px;
       }
     }
 
     .ticker-wrap {
-      width: 100vw;
-      margin-left: -30px;
+      width: 90%;
       margin-top: 30px;
       height: 50px;
       background-color: rgba($qweb-white, 0.2);
-      overflow: visible;
       .ticker {
-        -webkit-animation-duration: 8s;
-        animation-duration: 8s;
+        -webkit-animation-duration: 7s;
+        animation-duration: 7s;
         -webkit-animation-name: ticker-mobile;
         animation-name: ticker-mobile;
         margin-top: 15px;
@@ -158,8 +155,8 @@
 
 @keyframes ticker-mobile {
   0% {
-    -webkit-transform: translate3d(60%, 0, 0);
-    transform: translate3d(60%, 0, 0);
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(35%, 0, 0);
     visibility: visible;
   }
 

@@ -170,9 +170,11 @@
   }
 
   @media (max-width: $screen-xs) {
-    .text-box,
-    .heading {
+    .text-box {
       margin-left: 20px;
+    }
+    .text .heading {
+      margin-left: 10px;
     }
     .mobile-nav {
       .arrow {
