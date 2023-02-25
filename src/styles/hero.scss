@@ -30,7 +30,7 @@
     }
 
     button {
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: transparent;
       color: $qweb-black;
 
       border: 2px solid $qweb-black;
@@ -88,7 +88,6 @@
       width: 90%;
       margin-top: 30px;
       height: 50px;
-      background-color: rgba($qweb-white, 0.2);
       .ticker {
         -webkit-animation-duration: 7s;
         animation-duration: 7s;
@@ -110,7 +109,6 @@
 
 .ticker-wrap {
   overflow: hidden;
-  background-color: rgba($qweb-white, 0.2);
   margin: 50px 0 35px;
   width: 70vw;
   height: 60px;
