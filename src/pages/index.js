@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>QWeb Website</title>
+        <title>Queen's Web Development</title>
         <meta
           name="description"
-          content="Web Development Club @ Queen's run by students for students!"
+          content="Web Development Club at Queen's run by students for students! We offer web development services as well as tutorials on full stack development."
         />
         <meta
           name="viewport"
