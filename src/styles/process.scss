@@ -18,10 +18,15 @@
   }
 
   @media (max-width: $screen-sm) {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     .text,
     img {
       margin-left: 20px;
+    }
+
+    // Until we get the mobile asset
+    img {
+      display: none;
     }
   }
 }

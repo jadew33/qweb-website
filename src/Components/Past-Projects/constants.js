@@ -14,7 +14,7 @@ const PAST_PROJECTS = [
     imageUrl: "/projects/qflip.jpg",
     name: "Queen's Feminist Leadership in Politics",
     description:
-      "Website designed QFLIP, a Queen's club who is focused on empowering women in the political realm.",
+      "Website designed for QFLIP, a Queen's club focused on empowering women in the political realm.",
     link: "https://qflip.ca/",
   },
   {
@@ -30,7 +30,7 @@ const PAST_PROJECTS = [
     imageUrl: "/projects/mystic-welcome.png",
     name: "Mystic & Magic",
     description:
-      "Website promoting a business selling various servuces and products relating to all things spritual.",
+      "Website promoting a business selling various services and products relating to all things spritual.",
     link: null,
   },
   {
@@ -38,7 +38,7 @@ const PAST_PROJECTS = [
     imageUrl: "/projects/safe-dentistry.PNG",
     name: "Safe Dentistry",
     description:
-      "Website designed for company providing dental clinics safe practice certification's via on-site visit.",
+      "Website designed for a company providing safe practice certifications for dental clinics.",
     link: null,
   },
   {
@@ -64,6 +64,15 @@ const PAST_PROJECTS = [
     name: "Fiscal Fresh",
     description:
       "Website idea by a team that allows users to save recipes and add the required ingredients to their cart.",
+    link: null,
+  },
+
+  {
+    id: 8,
+    imageUrl: "/projects/van-the-man.png",
+    name: "Van the Man",
+    description:
+      "Portfolio designed for local musician with a guestbook and music integration.",
     link: null,
   },
 ];
