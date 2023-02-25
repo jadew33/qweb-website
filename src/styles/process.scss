@@ -6,16 +6,19 @@
   justify-content: center;
   align-items: center;
 
+  padding-bottom: 30px;
+
   .text {
     margin-top: 70px;
   }
 
   img {
     margin: 30px 0 50px;
-    width: 70vw;
+    width: 60vw;
   }
 
   @media (max-width: $screen-sm) {
+    padding-bottom: 10px;
     .text,
     img {
       margin-left: 20px;
