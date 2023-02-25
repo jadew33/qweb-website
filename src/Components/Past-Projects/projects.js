@@ -6,19 +6,26 @@ export default function Projects() {
   const length = PAST_PROJECTS.length;
   const [currentProject, setCurrentProject] = useState(PAST_PROJECTS[0]);
 
+  // Carousel functions
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
-
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
-
   useEffect(() => {
     setCurrentProject(
       PAST_PROJECTS.filter((project) => project.id === current)[0]
     );
   }, [current]);
+
+  // Preload images
+  useEffect(() => {
+    PAST_PROJECTS.forEach((project) => {
+      const img = new Image();
+      img.src = project.imageUrl;
+    });
+  }, []);
 
   return (
     <div className="projects-container" id="projects">
@@ -26,7 +33,7 @@ export default function Projects() {
         <h1 className="heading white-text">projects</h1>
       </div>
 
-      {/* Using a library to help with carousel. Cannot rename carousel-container*/}
+      {/* Using a library to help with carousel. Cannot rename class carousel-container*/}
       <div className="carousel-container">
         <div className="desktop-nav">
           <div className="nav-wrapper left-wrapper">
