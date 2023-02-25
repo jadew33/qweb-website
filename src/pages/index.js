@@ -1,13 +1,13 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import About from "../components/about";
-import Footer from "../components/footer";
-import Process from "../components/process";
-import TechStack from "../components/tech-stack";
-import Contact from "../components/contact-us";
-import Projects from "../components/Past-Projects/projects";
-import Icons from "../Components/icons";
+import Navbar from "@/Components/navbar";
+import Hero from "@/Components/hero";
+import About from "@/Components/about";
+import Footer from "@/Components/footer";
+import Process from "@/Components/process";
+import TechStack from "@/Components/tech-stack";
+import Contact from "@/Components/contact-us";
+import Projects from "@/Components/Past-Projects/projects";
+import Icons from "@/Components/icons";
 
 export default function Home() {
   return (
