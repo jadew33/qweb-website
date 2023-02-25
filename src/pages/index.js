@@ -24,7 +24,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <a id="top"></a> */}
       <Navbar />
       <Hero />
       <About />
