@@ -2,7 +2,7 @@
 .icon-container {
   position: fixed;
   left: 25px;
-  bottom: 0;
+  bottom: 15px;
 
   display: flex;
   flex-direction: column;
@@ -21,6 +21,7 @@
 
   @media (max-width: $screen-md) {
     left: 15px;
+    bottom: 0;
     img {
       height: 40px;
       width: 40px;

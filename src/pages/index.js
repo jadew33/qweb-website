@@ -1,17 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import Navbar from "@/components/navbar";
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Footer from "@/components/footer";
-import Process from "@/components/process";
-import TechStack from "@/components/tech-stack";
-import Contact from "@/components/contact-us";
-import Projects from "@/components/Past-Projects/projects";
-import Icons from "@/Components/icons";
-
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
+import About from "../components/about";
+import Footer from "../components/footer";
+import Process from "../components/process";
+import TechStack from "../components/tech-stack";
+import Contact from "../components/contact-us";
+import Projects from "../components/Past-Projects/projects";
+import Icons from "../Components/icons";
 
 export default function Home() {
   return (
