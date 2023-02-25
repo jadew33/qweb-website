@@ -46,10 +46,10 @@
       transition: all 500ms linear;
       cursor: pointer;
       &:hover {
-        color: $qweb-white;
-        border-color: $qweb-white;
+        color: $qweb-light-gray;
+        border-color: $qweb-light-gray;
         background-color: rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 5px 1px $qweb-white inset;
+        box-shadow: 0px 0px 5px 1px $qweb-light-gray inset;
       }
     }
   }
@@ -59,13 +59,13 @@
       h1 {
         font-size: 62px;
         max-width: 70vw;
-        font-weight: 500;
       }
     }
   }
   @media (max-width: $screen-sm) {
     h1 {
       font-size: 62px;
+      font-weight: 600;
     }
   }
   @media (max-width: $screen-xs) {
@@ -73,12 +73,12 @@
     min-height: calc(100vh - $nav-height-mobile);
     margin-top: $nav-height-mobile;
     .text-box {
-      padding: 30px 0 0 60px;
+      padding: 30px 0 0 52px;
       h1 {
         font-size: 42px;
       }
       button {
-        padding: 3px 20px;
+        padding: 5px 20px;
         margin-top: 10px;
         font-size: 24px;
       }

@@ -8,6 +8,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState();
 
+  // Uses emailjs to send emails
   const sendEmail = (e) => {
     e.preventDefault();
 

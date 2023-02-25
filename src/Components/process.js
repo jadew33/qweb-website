@@ -6,14 +6,14 @@ export default function Process() {
         <div className="gradient-bar"></div>
         <h1 className="heading">our process</h1>
         <p className="description">
-          After going through an extensive curriculum teaching you everything
-          you need to know to succeed in developing a client project in winter,
-          QWeb members are sorted into teams and then given a real world
-          customer to consult with for their assigned project. Experienced
-          members lead development teams of members of varying abilities. The
-          team's designer will design an eye-catching, modern website to suit
-          the client needs and the team's developers proceed to develop the
-          website.
+          QWeb provides an extensive education program to equip its members with
+          all the skills necessary to succeed in developing a client project in
+          winter. Over the winter semester, members are grouped into teams and
+          paired with a real-world client to work with. The development teams
+          are led by experienced members and consist of members with varying
+          abilities. The team's designer creates an eye-catching and modern
+          website tailored to the client's needs, while the developers work on
+          developing all the features the client has requsted.
         </p>
       </div>
 
