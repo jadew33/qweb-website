@@ -8,12 +8,12 @@ export default function Process() {
         <p className="description">
           QWeb provides an extensive education program to equip its members with
           all the skills necessary to succeed in developing a client project in
-          winter. Over the winter semester, members are grouped into teams and
-          paired with a real-world client to work with. The development teams
-          are led by experienced members and consist of members with varying
-          abilities. The team's designer creates an eye-catching and modern
-          website tailored to the client's needs, while the developers work on
-          developing all the features the client has requsted.
+          winter. Members are grouped into teams and paired with a real-world
+          client to work with. Development teams are led by experienced members
+          and consist of members with varying abilities. The team's designer
+          creates an eye-catching and modern website tailored to the client's
+          needs, while the developers work on developing all the features the
+          client has requsted.
         </p>
       </div>
 

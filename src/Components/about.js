@@ -10,14 +10,13 @@ export default function About() {
           focuses on all aspects of web development, including design and
           development. Our goal is to equip students with the skills and
           knowledge required to build stunning websites through tutorials and
-          practical experience with client projects. In the fall, we offer an
-          education series that covers a wide range of topics, starting from the
-          basics of HTML/CSS and progressing to advanced topics such as React
-          and back-end integration. We also offer tutorials on design. During
+          practical experience with client projects. <br />
+          <br />
+          In the fall, we offer an education series that covers a wide range of
+          topics from the very basics of web development and design. During
           winter, our members get the opportunity to work on a client project
-          that utilizes all the skills taught in the fall. With the guidance of
-          experienced team leads and QWeb staff, our members receive support
-          throughout the project's duration to ensure success.
+          under the guidance of experienced team leads and QWeb staff to ensure
+          success.
         </p>
       </div>
       <div className="card-container">
